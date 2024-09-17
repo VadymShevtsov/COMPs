@@ -14,7 +14,7 @@ doi = "https://doi.org/10.1016/j.camwa.2022.02.007",
 author = "H. Zhao and X. Liu and A. H. Fletcher and R. Xiang and J. T. Hwang and D. Kamensky"
 }
 ```
-The examples include: plate under uniform edge pressure, plate under uniform out-of-plane pressure, and plate with a hole. Additional guides for installation, visualization, and mortar analysis are present in the form of .txt files.
+Examples include: plate under uniform edge pressure, plate under uniform out-of-plane pressure, and plate with a hole. Additional guides for installation, visualization, and mortar analysis are present in the form of .txt files.
 
 ## Dependencies 
 1. Python library for FE analysis [FEniCS](https://fenicsproject.org/).
