@@ -1,0 +1,68 @@
+bash Anaconda3...............sh 
+conda config --set channel_priority false
+conda update conda -c conda-canary
+
+to isntall mshr to your inv first 
+
+conda create -n fenicstest -c conda-forge mshr=2019.1.0=py38h255090a_2
+
+!!! this will install !fenics! and !python 3.8! as a dependency 
+
+conda activate fenicstest
+
+conda install -c conda-forge pythonocc-core=7.4.1
+
+
+conda install pip
+
+do not use sudo pip command (it is bad and will call for system pip), for example if getting
+
+  WARNING: Building wheel for mpi4py failed: [Errno 13] Permission denied: ''/home/richard/.cache/pip/wheels/1f/14''
+ 
+while reinstilling any modules go to .cache/pip/wheels and delete the problematic wheel
+
+pip3 install git+https://github.com/david-kamensky/tIGAr.git
+pip3 install git+https://github.com/david-kamensky/VarMINT.git
+pip3 install git+https://github.com/david-kamensky/CouDALFISh.git
+pip3 install git+https://github.com/david-kamensky/ShNAPr.git
+
+pip3 install git+https://github.com/blechta/tsfc.git@2018.1.0 
+pip3 install git+https://github.com/blechta/COFFEE.git@2018.1.0 
+pip3 install git+https://github.com/blechta/FInAT.git@2018.1.0 
+pip3 install singledispatch networkx pulp 
+pip3 install git+https://github.com/dalcinl/igakit.git 
+pip3 install --force-reinstall scipy
+pip3 install pybind11==2.2.4 (if asked)
+pip3 install numpy==1.21 (if igakit has a problem with numpy >1.22)
+
+pip3 install git+https://github.com/hanzhao2020/PENGoLINS.git
+move cpp folder from github to instalation directory
+
+sudo apt-get install sox ffmpeg libcairo2 libcairo2-dev 
+sudo apt-get install texlive-full
+pip3 install mpi4py
+
+if getting SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+$ pip install setuptools==58.2.0
+
+sudo apt-get install tcllib tklib tcl-dev tk-dev libfreetype-dev libx11-dev libgl1-mesa-dev libfreeimage-dev rapidjson-dev
+sudo apt-get install g++
+
+sudo apt-get install software-properties-common 
+sudo apt-get install libtool autoconf automake gfortran gdebi 
+sudo apt-get install gcc-multilib libxi-dev libxmu-dev libxmu-headers
+sudo apt-get install libx11-dev mesa-common-dev libglu1-mesa-dev
+sudo apt-get install libfontconfig1-dev sudo apt-get install libfreetype6 libfreetype6-dev 
+sudo apt-get install tcl tcl-dev tk tk-dev
+
+install swig
+https://www.dev2qa.com/how-to-install-swig-on-macos-linux-and-windows/
+
+additional commands after I ran all of the demos:
+
+pip3 install matplotlib
+pip3 install psutil
+conda config --add channels conda-forge
+
+

@@ -1,0 +1,23 @@
+AppendAttributes for each patch (all displacements u, initial positions F, stress for each layer for that patch, dmg variables)
+
+Apply 2 Calculator operations in a form of :
+
+    # To view the saved files in Paraview:
+    # ------------------------------------------------------------------------------
+    # (F0_0/F0_3-coordsX)*iHat + (F0_1/F0_3-coordsY)*jHat + (F0_2/F0_3-coordsZ)*kHat
+    # (u0_0/F0_3)*iHat + (u0_1/F0_3)*jHat + (u0_2/F0_3)*kHat
+    # ------------------------------------------------------------------------------
+    # (F1_0/F1_3-coordsX)*iHat + (F1_1/F1_3-coordsY)*jHat + (F1_2/F1_3-coordsZ)*kHat
+    # (u1_0/F1_3)*iHat + (u1_1/F1_3)*jHat + (u1_2/F1_3)*kHat
+    # ------------------------------------------------------------------------------
+    # (F2_0/F2_3-coordsX)*iHat + (F2_1/F2_3-coordsY)*jHat + (F2_2/F2_3-coordsZ)*kHat
+    # (u2_0/F2_3)*iHat + (u2_1/F2_3)*jHat + (u2_2/F2_3)*kHat
+    # ------------------------------------------------------------------------------
+    # (F3_0/F3_3-coordsX)*iHat + (F3_1/F3_3-coordsY)*jHat + (F3_2/F3_3-coordsZ)*kHat
+    # (u3_0/F3_3)*iHat + (u3_1/F3_3)*jHat + (u3_2/F3_3)*kHat
+    # ------------------------------------------------------------------------------
+    # for index = 0, 1, 2, 3, etc.
+
+each must be followed by WarpByVector
+
+choosing field to visualize on last operation will visualize the needed parameter
