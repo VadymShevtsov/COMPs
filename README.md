@@ -23,7 +23,7 @@ The examples include: plate under uniform edge pressure, plate under uniform out
 
 4. Kirchhoff--Love shell formulation for tIGAr is given by [ShNAPr](https://github.com/david-kamensky/ShNAPr).
 
-5. Multipach analysis requires [PENGoLINS](https://github.com/hanzhao2020/PENGoLINS)
+5. Multipach analysis requires [PENGoLINS](https://github.com/hanzhao2020/PENGoLINS).
 
 6. IGA geometry is created using [IGAkit](https://github.com/dalcinl/igakit).
 
