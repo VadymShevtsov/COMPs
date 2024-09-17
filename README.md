@@ -4,7 +4,7 @@ This work presents an addition to the family of modules for IGA analysis in the 
 
 ```
 @article{Zhao2022,
-title = "An open-source framework for coupling non-matching isogeometric shells with application to aerospace structures",
+title = "Change to thesis ref",
 journal = "Computers \& Mathematics with Applications",
 volume = "111",
 pages = "109--123",
