@@ -15,7 +15,7 @@ setup(
     license='GNU LGPLv3',
     author='V. Shevtsov',
     author_email='',
-    description="Composites with CDM for tIGAr/FEniCS",
+    description="Composite materials with CDM for tIGAr/FEniCS.",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
 )
