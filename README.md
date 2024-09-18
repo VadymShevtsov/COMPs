@@ -6,7 +6,7 @@ This work presents an addition to the family of modules for IGA analysis in the 
 @mastersthesis{Shevtsov2024,
     author = {Shevtsov V.},
     institution = {Master's thesis},
-    pages = 86,
+    pages = 76,
     school = {University of Calgary},
     title = {Open-source isogeometric composite module with continuum degradation model},
     note = {Available at \url{https://hdl.handle.net/1880/119758}},
